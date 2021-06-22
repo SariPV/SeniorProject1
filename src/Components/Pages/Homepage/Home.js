@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import HeroSection from '../../HeroSection';
 import { homeObjOne, homeObjTwo, homeObjThree, homeObjFour } from './Data';
-import Pricing from '../../Templates';
+import Templates from '../../Templates';
 
 function Home() {
     return (
@@ -9,7 +9,7 @@ function Home() {
             <HeroSection {...homeObjOne} />
             <HeroSection {...homeObjThree} />
             <HeroSection {...homeObjTwo} />
-            <Pricing />
+            <Templates />
             <HeroSection {...homeObjFour} />
         </>
     );
